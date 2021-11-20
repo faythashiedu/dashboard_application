@@ -1,0 +1,56 @@
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #1C4E80;
+    color: #f1f1f1;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.navbarWrap {
+    height: 100%;
+    padding: 2px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Parisienne', cursive;
+    cursor: pointer;
+}
+
+.profileMain {
+    display: flex;
+    align-items: center;
+    
+}
+.profileIcon {
+    color: #f1f1f1;
+    position: relative;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.notiNumber {
+    width: 13px;
+    height: 13px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+    top: -4px;
+    right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}

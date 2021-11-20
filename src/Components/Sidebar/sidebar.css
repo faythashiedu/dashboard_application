@@ -1,0 +1,35 @@
+.sidebar {
+    flex: 1;
+    height: calc(100vh - 50px);
+    background-color: #1C4E80;
+    color: #f1f1f1;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    cursor: pointer;
+    font-size: large;
+    border-radius: 10px;
+
+}
+
+/* .list {
+    margin-top: 15px;
+} */
+
+.items.active, .items:hover {
+    background-color: #4877a7;
+}
+
+.icons {
+    margin-right: 5px;
+}
+
+.sidebarMenu {
+    padding: 10px 20px;
+}
+.sidebarTitle {
+    color: #7E909A;
+}
