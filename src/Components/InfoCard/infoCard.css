@@ -1,0 +1,31 @@
+.infoMain {
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0px 20px;
+    flex: 1;
+}
+
+.fundMain {
+    display: flex;
+    align-items: center;
+}
+.funds {
+    font-size: 30px;
+    font-weight: 600;
+}
+.rate {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.down {
+    color: red;
+}
+.up {
+    color: green;
+}
+.extra {
+    font-size: 15px;
+    color: #202020;
+}

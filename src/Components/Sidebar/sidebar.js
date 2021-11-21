@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 import "./sidebar.css";
-import { SidebarList, QuickMenu, Notifications, Users } from "./sidebarList";
+import { SidebarList, QuickMenu, Notifications, User } from "./sidebarList";
 
 const Sidebar = () => {
     return (
@@ -11,8 +12,10 @@ const Sidebar = () => {
                         {SidebarList.map((items,index) => {
                             return (
                                 <li key={index} className="items">
-                                    <div className="icons">{items.icon}</div>
-                                    {items.title}
+                                    <Link to={items.route} className="itemLink">
+                                        <div className="icons">{items.icon}</div>
+                                        {items.title}
+                                    </Link>
                                 </li>
                             )
                         })}
@@ -22,8 +25,10 @@ const Sidebar = () => {
                         {QuickMenu.map((items,index) => {
                             return (
                                 <li key={index} className="items">
-                                    <div className="icons">{items.icon}</div>
-                                    {items.title}
+                                    <Link to={items.route} className="itemLink">
+                                        <div className="icons">{items.icon}</div>
+                                        {items.title}
+                                    </Link>
                                 </li>
                             )
                         })}
@@ -33,19 +38,23 @@ const Sidebar = () => {
                         {Notifications.map((items,index) => {
                             return (
                                 <li key={index} className="items">
-                                    <div className="icons">{items.icon}</div>
-                                    {items.title}
+                                    <Link to={items.route} className="itemLink">
+                                        <div className="icons">{items.icon}</div>
+                                        {items.title}
+                                    </Link>
                                 </li>
                             )
                         })}
                     </ul>
                     <div className="sidebarTitle"><h3>Staff</h3></div>
                     <ul className="list">
-                        {Users.map((items,index) => {
+                        {User.map((items,index) => {
                             return (
                                 <li key={index} className="items">
-                                    <div className="icons">{items.icon}</div>
-                                    {items.title}
+                                    <Link to={items.route} className="itemLink">
+                                        <div className="icons">{items.icon}</div>
+                                        {items.title}
+                                    </Link>
                                 </li>
                             )
                         })}

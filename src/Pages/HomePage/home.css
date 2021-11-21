@@ -1,3 +1,21 @@
 .homePage {
     flex: 4;
+    background-color: #f1f1f1;
+    overflow: auto;
+}
+.infoCard {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.infoTitle {
+    font-size: 20px;
+}
+
+.userWidgets {
+    display: flex;
+    margin: 20px;
 }

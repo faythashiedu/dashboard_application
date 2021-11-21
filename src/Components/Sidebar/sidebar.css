@@ -3,21 +3,27 @@
     height: calc(100vh - 50px);
     background-color: #1C4E80;
     color: #f1f1f1;
+    position: sticky;
+    top: 50px;
 }
 
 .items {
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
     padding: 5px;
     cursor: pointer;
     font-size: large;
     border-radius: 10px;
+    list-style: none;
 
 }
 
-/* .list {
-    margin-top: 15px;
-} */
+.itemLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #f1f1f1;
+}
 
 .items.active, .items:hover {
     background-color: #4877a7;
