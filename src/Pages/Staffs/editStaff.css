@@ -1,0 +1,133 @@
+.staffWrap {
+    flex: 4;
+    margin: 20px;
+    padding: 20px;
+    color: #1C4E80;
+}
+
+.editStaff {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnStaff {
+    background-color: #1C4E80;
+    padding: 7px 15px;
+    border-radius: 10px;
+    color: #f1f1f1;
+    font-weight: 600;
+}
+
+.infoWrap {
+    display: flex;
+    margin-top: 20px;
+}
+
+.staffInfo {
+    flex: 1;
+    padding: 10px 20px;
+    -webkit-box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+    -moz-box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+    box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+}
+
+.staffForm {
+    flex: 2;
+    padding: 10px 20px;
+    -webkit-box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+    -moz-box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+    box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+    margin-left: 20px;
+}
+.profile {
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+}
+.imgStaff {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.rankAdmin {
+    font-weight: 400;
+    color: #EA6A47;
+}
+
+.rankJunior {
+    font-weight: 400;
+    color: #0091D5;
+}
+
+.infoStaff {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+
+.infoStaff h4 {
+    margin-left: 10px;
+}
+.mainForm {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.formWrapper {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.staffLabel {
+    font-size: large;
+    font-weight: 600;
+    align-self: flex-start;
+    padding-bottom: 10px;
+}
+
+.staffInput {
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #1C4E80 ;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.staffWrapper {
+    width: 60%;
+}
+
+.formImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.imgWrap {
+    display: flex;
+    align-items: center;
+}
+.publish {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.upload {
+    border: none;
+    background-color: #1C4E80;
+    padding: 5px;
+    color: #f1f1f1;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+}

@@ -5,16 +5,19 @@ const InfoCard = ({
     rate,
     title,
     fund,
-    bgColor
+    bgColor,
+    extra,
 }) => {
     return (
         <div className="infoMain" style={{backgroundColor:bgColor} }>
             <span className="infoTitle">{title}</span>
             <div className="fundMain">
                 <span className="funds">{fund}</span>
-                <span className="rate">{rate} {(rate<0) ? <ArrowDownward className="down" /> : <ArrowUpward className="up" />}</span>
+                {rate && 
+                    <span className="rate">{rate} {(rate<0) ? <ArrowDownward className="down" /> : <ArrowUpward className="up" />}</span>
+                }
             </div>
-            <span className="extra">Compared to last month</span>
+            <span className="extra">{extra}</span>
         </div>
     )
 }

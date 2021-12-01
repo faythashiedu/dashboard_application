@@ -1,3 +1,29 @@
 .userMain {
     flex: 4;
+    margin: 20px;
+    padding: 20px;
+    color: #1C4E80;    
+}
+
+.datagrid {
+    height: 500px;
+}
+
+.title {
+    padding-bottom: 10px;
+    font-size: x-large;
+}
+
+.actionEdit {
+    color: #1C4E80;
+    margin-right: 12px;
+    display: flex;
+    align-content: center;
+    cursor: pointer;
+}
+.actionDel {
+    color: #f71a1a;
+    display: flex;
+    align-content: center;
+    cursor: pointer;
 }

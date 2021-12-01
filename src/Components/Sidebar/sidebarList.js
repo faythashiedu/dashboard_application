@@ -1,4 +1,4 @@
-import { Home,Timeline, TrendingUp, Person,AttachMoney,BarChart, LocalMall, Email, Whatshot,DynamicFeed, Error,Work } from "@material-ui/icons";
+import { Home,Timeline, TrendingUp, Person,AttachMoney,BarChart, LocalMall, Email, Whatshot,DynamicFeed, Error,Work, Group } from "@material-ui/icons";
 import { routes } from "../../Utilities/route";
 
 export const SidebarList = [
@@ -23,7 +23,7 @@ export const QuickMenu = [
     {
         title: "Products",
         icon: <LocalMall />,
-        route: routes.home,
+        route: routes.product,
     },
     {
         title: "Users",
@@ -49,11 +49,6 @@ export const Notifications = [
         route: routes.home,
     },
     {
-        title: "Feedback",
-        icon: <DynamicFeed />,
-        route: routes.home,
-    },
-    {
         title: "Latest News",
         icon: <Whatshot />,
         route: routes.home,
@@ -61,6 +56,11 @@ export const Notifications = [
 ]
 
 export const User = [
+    {
+        title: "Staffs",
+        icon: <Group />,
+        route: routes.staff,
+    },
     {
         title: "Manage",
         icon: <Work />,

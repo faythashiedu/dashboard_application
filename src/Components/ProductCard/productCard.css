@@ -1,0 +1,48 @@
+.cardWrap {
+    width: 100%;
+    height: 300px;
+    color: #1C4E80;
+    border: 1px solid #4877A7;
+    border-radius: 10px;
+    padding: 20px 15px;
+    -webkit-box-shadow: inset 1px 1px 16px 1px #bdb7b7; 
+    box-shadow: inset 1px 1px 16px 1px #bdb7b7;
+    list-style: none;
+    text-decoration: none
+}
+
+.prdImg {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.prcWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prdDetails .prdWrap {
+    padding: 10px 0px;
+}
+
+.dotInStock {
+    width: 7px;
+    height: 7px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.dotOutStock {
+    width: 7px;
+    height: 7px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.stockWrap {
+    display: flex;
+    align-items: center;
+}

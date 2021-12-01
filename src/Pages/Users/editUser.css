@@ -1,0 +1,116 @@
+.editUser {
+    flex: 4;
+    margin: 20px;
+    padding: 20px;
+    color: #1C4E80;
+}
+
+.userEditMain {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.editUserBtn {
+    background-color: #1C4E80;
+    padding: 7px 15px;
+    border-radius: 10px;
+    color: #f1f1f1;
+    font-weight: 600;
+}
+
+.userWrap {
+    display: flex;
+    margin-top: 20px;
+}
+
+.editShow {
+    flex: 1;
+    padding: 10px 20px;
+    -webkit-box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+    -moz-box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+    box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+}
+
+.updateUser {
+    flex: 2;
+    padding: 10px 20px;
+    -webkit-box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+    -moz-box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+    box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+    margin-left: 20px;
+}
+
+.editImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+
+}
+.editstats {
+    font-weight: 400;
+    color: #4877a7;
+}
+
+.editcover {
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+}
+.editInfo {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+
+.editInfo h4 {
+    margin-left: 10px;
+}
+
+.formWrap {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.formLabel {
+    font-size: large;
+    font-weight: 600;
+}
+.logOut, .userUpdate {
+    margin-top: 20px;
+    display: flex;
+    /* width: 100%; */
+    justify-content: flex-end;
+}
+.formInput {
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #1C4E80 ;
+    outline: none;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.logoutBtn {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: #f1f1f1;
+}
+
+.updateBtn {
+    padding: 7px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1C4E80;
+    color: #f1f1f1;
+}
+
+.editUser button {
+    cursor: pointer;
+}

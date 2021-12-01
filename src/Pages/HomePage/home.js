@@ -9,9 +9,9 @@ const Home = () => {
     return (
         <div className="homePage">
             <div className="infoCard">
-                <InfoCard rate="+12" fund="$2300" title="Revenue" bgColor="#EA6A47"/>
-                <InfoCard rate="+12" fund="$2300" title="Revenue" bgColor="#0091D5"/>
-                <InfoCard rate="-12" fund="$2300" title="Revenue" bgColor="#A5D8DD"/>
+                <InfoCard rate="+12" fund="$2300" title="Revenue" bgColor="#EA6A47" extra="Compared to last month"/>
+                <InfoCard rate="+12" fund="$2300" title="Revenue" bgColor="#0091D5" extra="Compared to last month"/>
+                <InfoCard rate="-12" fund="$2300" title="Revenue" bgColor="#A5D8DD" extra="Compared to last month"/>
             </div>
             <Charts data={SalesData} title="Monthly Sales Analytics" dataKey="Bag_Sales" dataKey2="Shoe_Sales" dataKey3="Outfit_Sales"/>
             <div className="userWidgets">

@@ -1,0 +1,36 @@
+.product {
+    /* width: 100vw; */
+    flex: 4;
+    padding: 20px;
+    margin: 20px;
+    color: #1C4E80;
+    
+}
+
+.productWrap {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+
+
+.prdLink {
+    text-decoration: none;
+}
+
+.prdHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.prdCreate {
+    background-color: #1C4E80;
+    padding: 7px 15px;
+    border-radius: 10px;
+    color: #f1f1f1;
+    font-weight: 600;
+}

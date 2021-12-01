@@ -1,0 +1,53 @@
+.staffMain {
+    flex: 4;
+    overflow: auto;
+}
+
+.staffCard {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.staffTable {
+    height: 100%;
+    color: #1C4E80;
+    margin: 20px;
+}
+
+.staffImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.staffAdmin {
+    color: #EA6A47;
+    font-weight: 600;
+}
+.staffJunior {
+    color: #0091D5;
+    font-weight: 600;
+}
+.staffSenior {
+    color: #1C4E80;
+    font-weight: 600;
+}
+
+.staffDel {
+    color: #f71a1a;
+    display: flex;
+    align-content: center;
+    cursor: pointer;
+}
+.staffEdit {
+    color: #1C4E80;
+    margin-right: 12px;
+    display: flex;
+    align-content: center;
+    cursor: pointer;
+}

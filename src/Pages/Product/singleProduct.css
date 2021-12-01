@@ -1,0 +1,116 @@
+.singleProduct {
+    flex: 4;
+    margin: 20px;
+    padding: 20px;
+    color: #1C4E80;
+}
+.singleProduct > h1 {
+    margin-left: 20px;
+}
+
+.infoWrap {
+    display: flex;
+}
+.prdCharts {
+    flex: 1;
+}
+
+.prdSaleImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.prdInfo {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+    -moz-box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+    box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+}
+
+.imgWrap {
+    display: flex;
+}
+.prdInfoBtm {
+    margin-top: 10px;
+}
+
+.singleInfo {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.singleInfo h5 {
+    font-weight: 400;
+}
+
+.productBottom {
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+    -moz-box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+    box-shadow: -2px -2px 18px -2px rgba(126,144,154,0.66);
+}
+
+.formPrdImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.prdForm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formLeft {
+    display: flex;
+    flex-direction: column;
+}
+
+.formLeft >label {
+    margin-bottom: 10px;
+}
+.formLeft >input {
+    margin-bottom: 10px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #1C4E80;
+    background-color: transparent;
+}
+
+.formRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.publishWrap {
+    display: flex;
+    align-items: center;
+}
+
+.prdBtn {
+    border: none;
+    background-color: #1C4E80;
+    padding: 5px;
+    color: #f1f1f1;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#prdStock {
+    background-color: transparent;
+    border: 1px solid #1C4E80;
+    border-radius: 3px;
+    outline: none;
+}
