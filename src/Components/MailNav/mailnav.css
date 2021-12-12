@@ -1,0 +1,90 @@
+.mailNav {
+    background-color: #4877a7;
+    width: 250px;
+    height: 100%;
+    box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+    padding: 10px 20px;
+    color: #051524;
+}
+
+.mailNavClose {
+    background-color: #4877a7;
+    width: 70px;
+    height: 100%;
+    box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px -1px 5px 0px rgba(0,0,0,0.75);
+    padding: 10px 20px;
+}
+
+.mailNavClose .composeBtn {
+    display: none;
+}
+
+.composeBtn {
+    display: flex;
+    outline: none;
+    border: none;
+    background-color: #f76464;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 20px;
+    color: #f1f1f1;
+}
+
+.comHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mailList {
+    display: flex;
+    align-items: center;
+    padding-bottom: 18px;
+}
+
+.mailList > h4 {
+    margin-left: 10px;
+}
+
+.mailUl {
+    margin-top: 35px;
+}
+
+.filterWrap > h3 {
+    margin-bottom: 15px;
+}
+
+.labelDot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #EA6A47;
+}
+.labelDot2 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #00C49F;
+}
+.labelDot3 {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #0091D5;
+}
+
+.labelWrap > h3 {
+    margin-bottom: 15px;
+}
+
+.mailNavClose .mailList > h4 {
+    display: none;
+}
+
+.mailNavClose .filterWrap , .mailNavClose .labelWrap{
+    margin-top: 20px;
+}

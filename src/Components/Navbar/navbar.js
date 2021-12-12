@@ -5,6 +5,7 @@ import profileImg from "../../Assets/jimmy-fermin-bqe0J0b26RQ-unsplash.jpg"
 import PopUp from '../../HOC/notificationModal';
 import NotiPopup from './popups/notiPopup';
 import LangPopup from './popups/LangPopup';
+import { PieUserData } from '../PieChart/pieData';
 // import {  NotificationsNoneIcon } from '@material-ui/icons';
 
 
@@ -36,7 +37,7 @@ const Navbar = () => {
                 <div className="profileMain">
                     <div className="profileIcon" onClick={openPopup}>
                         <Notifications />
-                        <span className="notiNumber">2</span> 
+                        <span className="notiNumber">{PieUserData.length}</span> 
                         <PopUp showPopup={showPopup} setShowPopup={setShowPopup}>
                             <NotiPopup />
                         </PopUp>

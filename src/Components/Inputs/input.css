@@ -1,0 +1,116 @@
+.checkBox {
+    display: flex;
+    align-items: center;
+    font-size: medium;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    background-color: transparent;
+    margin: 0;
+    font: inherit;
+    color: currentColor;
+    width: 1.15em;
+    height: 1.15em;
+    border: 0.15em solid #4877a7;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    width: 0.65em;
+    height: 0.65em;
+    clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em #4877a7;
+    background-color: #4877a7;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+}
+
+select {
+    /* // A reset of styles, including removing the default dropdown arrow */
+    appearance: none;
+    /* // Additional resets for further consistency */
+    background-color: transparent;
+    border: none;
+    padding: 0 1em 0 0;
+    margin: 0;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+    outline: none;
+}
+
+.selectWrap {
+    width: 100%;
+    /* min-width: 40px; */
+    max-width: 130px;
+    border: 2px solid #4877a7;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: #1c4a80;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.selectWrap::after {
+    content: "";
+    width: 0.8em;
+    height: 0.5em;
+    background-color: #4877a7;
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+}
+
+.refresh {
+    width: 35px;
+    padding: 2px 0px;
+    color: #4877a7;
+    border-radius: 5px;
+    border: 2px solid #4877a7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchForm {
+    display: flex;
+    align-items: center;
+    color: #4877a7;
+    border: 2px solid #4877a7;
+    padding: 0px 15px;
+    border-radius: 5px;
+}
+
+.inputsearch {
+    outline: none;
+    border: none;
+    padding: 5px;
+    background-color: transparent;
+
+}
+
+.searchicon {
+    font-size: medium !important;
+}
+
+
+
+  

@@ -19,7 +19,7 @@ const SingleProduct = () => {
                         return (
                             <div className="infoWrap">
                                 <div className="prdCharts">
-                                    <Charts data={list?.sales} title="Sales Performance" dataKey="TotalSales"  />
+                                    <Charts data={list?.sales} title="Sales Performance" dataKey="TotalSales" aspect={4 /1} />
                                 </div>
                                 <div className="prdInfo">
                                     <div className="imgWrap">

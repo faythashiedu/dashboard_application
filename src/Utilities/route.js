@@ -3,4 +3,6 @@ export const routes = {
     users: "/users",
     staff: "/staffs",
     product: "/products",
+    analytics: "/analytics",
+    mail: "/mails",
 }

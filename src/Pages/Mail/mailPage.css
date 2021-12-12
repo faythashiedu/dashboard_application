@@ -1,0 +1,10 @@
+.mailPage {
+    flex: 4;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.mailPageWrap {
+    display: flex;
+    height: calc(100vh - 60px);
+}

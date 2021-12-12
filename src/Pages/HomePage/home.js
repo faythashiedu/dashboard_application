@@ -13,7 +13,7 @@ const Home = () => {
                 <InfoCard rate="+12" fund="$2300" title="Revenue" bgColor="#0091D5" extra="Compared to last month"/>
                 <InfoCard rate="-12" fund="$2300" title="Revenue" bgColor="#A5D8DD" extra="Compared to last month"/>
             </div>
-            <Charts data={SalesData} title="Monthly Sales Analytics" dataKey="Bag_Sales" dataKey2="Shoe_Sales" dataKey3="Outfit_Sales"/>
+            <Charts data={SalesData} title="Monthly Sales Analytics" dataKey="Bag_Sales" dataKey2="Shoe_Sales" dataKey3="Outfit_Sales" aspect={4 /1}/>
             <div className="userWidgets">
                 <LargeWidgets />
                 <SmallWidgets />

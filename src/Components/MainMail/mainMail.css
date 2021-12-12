@@ -1,0 +1,28 @@
+.mainMail {
+    flex: 1;
+}
+
+.mailHeaderWrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: #b1afafc2;
+    border-bottom: 1px solid #afadad;
+    border-top: 1px solid #afadad;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.mailInput {
+    display: flex;
+    align-items: center;
+}
+
+.mailContent {
+    padding: 20px 30px;
+    /* background-color: #f1f1f1; */
+    border-bottom: 2px solid #b1afafc2;
+}
+
+.mailInput span {
+    margin-right: 20px;
+}

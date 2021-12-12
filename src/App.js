@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./Components/Navbar/navbar"
 import Sidebar from "./Components/Sidebar/sidebar"
+import Analytics from "./Pages/Analytics/analytics";
 import Home from "./Pages/HomePage/home"
+import MailPage from "./Pages/Mail/mailPage";
 import Product from "./Pages/Product/product";
 import SingleProduct from "./Pages/Product/singleProduct";
 import EditStaff from "./Pages/Staffs/editStaff";
@@ -27,6 +29,8 @@ function App() {
           <Route path={`${routes.staff}/:id`} element={<EditStaff />} />    
           <Route path={routes.product} element={<Product />} />
           <Route path={`${routes.product}/:id`} element={<SingleProduct />} />    
+          <Route path={routes.analytics} element={<Analytics />} />
+          <Route path={routes.mail} element={<MailPage />} />
         </Routes>
       </div>
     </Router>

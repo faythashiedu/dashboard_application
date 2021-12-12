@@ -1,0 +1,18 @@
+.analyticsMain{
+    flex: 4;
+    color: #1C4E80;  
+    padding: 0px 20px;  
+    display: flex;
+}
+
+.analyticsMain h1 {
+    margin: 20px;
+}
+
+.overviewWrap {
+    width: 30%;
+}
+
+.analyticsWrap {
+    width: 70%;
+}

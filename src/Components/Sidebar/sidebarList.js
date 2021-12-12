@@ -10,7 +10,7 @@ export const SidebarList = [
     {
         title: "Analytics",
         icon: <Timeline />,
-        route: routes.home,
+        route: routes.analytics,
     },
     {
         title: "Sales",
@@ -46,7 +46,7 @@ export const Notifications = [
     {
         title: "Mail",
         icon: <Email />,
-        route: routes.home,
+        route: routes.mail,
     },
     {
         title: "Latest News",
