@@ -15,9 +15,11 @@ const Analytics = () => {
             </div>
             <div className="overviewWrap">
                 <h1>Overview</h1>
-                <Overview viewTitle="Total Sales" viewRate="+2.3" viewTotal="$800.15" viewDesc="Total sales for simply products in a year, with increase or decrease ratings." />
-                <Overview viewTitle="Expenses" viewRate={-2.3} viewTotal="890.2" viewDesc="Accumulated expenses with earned income." />
-                <Overview viewTitle="Customers" viewRate="+2.3" viewTotal={455} viewDesc="Statistics of increase in customers purchasing simply's products." />
+                <div className="overviewGrid">
+                    <Overview viewTitle="Total Sales" viewRate="+2.3" viewTotal="$800.15" viewDesc="Total sales for simply products in a year, with increase or decrease ratings." />
+                    <Overview viewTitle="Expenses" viewRate={-2.3} viewTotal="890.2" viewDesc="Accumulated expenses with earned income." />
+                    <Overview viewTitle="Customers" viewRate="+2.3" viewTotal={455} viewDesc="Statistics of increase in customers purchasing simply's products." />
+                </div>
             </div>
         </div>
     )

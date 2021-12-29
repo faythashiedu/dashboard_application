@@ -16,3 +16,9 @@
 .analyticsWrap {
     width: 70%;
 }
+
+.overviewGrid {
+    margin: 20px 0px;
+    display: grid;
+    grid-row-gap: 40px;
+}

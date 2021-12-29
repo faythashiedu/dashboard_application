@@ -5,8 +5,7 @@ import profileImg from "../../Assets/jimmy-fermin-bqe0J0b26RQ-unsplash.jpg"
 import PopUp from '../../HOC/notificationModal';
 import NotiPopup from './popups/notiPopup';
 import LangPopup from './popups/LangPopup';
-import { PieUserData } from '../PieChart/pieData';
-// import {  NotificationsNoneIcon } from '@material-ui/icons';
+import { Notify } from './popups/popupData';
 
 
 
@@ -15,7 +14,6 @@ const Navbar = () => {
     const [langPopop, setLangPopup] = useState(false);
 
     const openLang = () => {
-        // setLangPopup(prev => !prev)
         if (showPopup) {
             setShowPopup(item => !item)
         } else {
@@ -37,7 +35,7 @@ const Navbar = () => {
                 <div className="profileMain">
                     <div className="profileIcon" onClick={openPopup}>
                         <Notifications />
-                        <span className="notiNumber">{PieUserData.length}</span> 
+                        <span className="notiNumber">{Notify.length}</span> 
                         <PopUp showPopup={showPopup} setShowPopup={setShowPopup}>
                             <NotiPopup />
                         </PopUp>
